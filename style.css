@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    dire
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    list-style: none;
+    /* margin: 100px;
+    padding: 100px; */
+    padding-top: 50px;
+}
+li,img{
+    display: flex;
+    /* background-color: aqua; */
+    text-decoration: none;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    /* color: white; */
+    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
